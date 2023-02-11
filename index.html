@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>IntelMine</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-text">
+          <img src="brand.png" class="brand" />
+          <nav class="navbar-nav">
+            <a href="#" class="nav-home home">Home</a>
+            <a href="#" class="nav-home research">Research</a>
+            <a href="#" class="nav-home people">People</a>
+            <a href="#" class="nav-home publication">Puplication</a>
+            <a href="#" class="nav-home about">About</a>
+          </nav>
+        </div>
+      </header>
+      <section class="slide">
+        <div class="author">
+          <p class="lab-info">IntelMine Group</p>
+          <p class="prof">Digital Transformation of Surface Mines</p>
+        </div>
+        <div class="slide-show">
+          <div class="mySlides fade">
+            <img class="img-slide" src="1.jpeg" style="width: 100%" />
+            <div class="text">Research</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img class="img-slide" src="2.jpeg" style="width: 100%" />
+            <div class="text">Training</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img class="img-slide" src="3.png" style="width: 100%" />
+            <div class="text">service</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      <footer class="footer-contents">
+        <img class="brand-footer" src="brand.png" />
+        <div class="adress-info">
+          <p calss="adress">
+            1745-E, Adrien Pouliot Pavilion, Laval University, Quebec, QC G1V
+            0A6 Canada
+          </p>
+          <p class="info">
+            Email: ali.moradi@gmn.ulaval.ca Phone: (+1) 418 - 656 2131 Ext:
+            400060
+          </p>
+        </div>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5464.444851415685!2d-71.27177127459656!3d46.780221372318195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb89780451e7bbb%3A0x89a343b60103826f!2sAdrien%20Pouliot%20Pavilion%20University%20Laval!5e0!3m2!1sen!2sca!4v1676136697260!5m2!1sen!2sca"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </footer>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
